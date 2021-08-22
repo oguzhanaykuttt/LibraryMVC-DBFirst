@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13bea9becd534e0babc76832326795c6" Name="Diagram1">
+        <EntityTypeShape EntityType="DBKutuphaneModel.sysdiagrams" Width="1.5" PointX="5.125" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLCEZALAR" Width="1.5" PointX="8.125" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLHAREKET" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLKASA" Width="1.5" PointX="6.75" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLKATEGORI" Width="1.5" PointX="0.875" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLKITAP" Width="1.5" PointX="3.125" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLPERSONEL" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLUYELER" Width="1.5" PointX="0.875" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLYAZAR" Width="1.5" PointX="0.875" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLCEZALAR_TBLHAREKET" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLCEZALAR_TBLUYELER" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLHAREKET_TBLKITAP" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLHAREKET_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLHAREKET_TBLUYELER" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLKITAP_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBKutuphaneModel.FK_TBLKITAP_TBLYAZAR" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLHAKKIMIZDA" Width="1.5" PointX="0.75" PointY="0.625" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLILETISIM" Width="1.5" PointX="2.875" PointY="0.625" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLMESAJLAR" Width="1.5" PointX="5" PointY="0.625" />
+        <EntityTypeShape EntityType="DBKutuphaneModel.TBLADMIN" Width="1.5" PointX="7.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
